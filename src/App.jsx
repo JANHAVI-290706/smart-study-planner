@@ -142,7 +142,7 @@ function App() {
   return (
     <div className="app">
       <h1 className="title">
-        📚 Smart Study Planner
+         Smart Study Planner
       </h1>
 
       <div className="card">
@@ -222,7 +222,7 @@ function App() {
                   deleteSubject(index)
                 }
               >
-                🗑 Delete
+                 Delete
               </button>
             </div>
           ))
@@ -336,13 +336,6 @@ function App() {
           janhavib108@gmail.com
         </p>
 
-        <a
-          href="https://digitalheroesco.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Built for Digital Heroes
-        </a>
       </div>
     </div>
   );
