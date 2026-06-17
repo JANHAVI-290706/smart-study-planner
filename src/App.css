@@ -1,0 +1,230 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #9df39b,
+    #ffffff,
+    #7e96e3
+  );
+
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  color: #0a3161;
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: rgba(
+    10,
+    49,
+    97,
+    0.92
+  );
+
+  color: white;
+
+  padding: 25px;
+
+  border-radius: 18px;
+
+  margin-bottom: 20px;
+
+  box-shadow: 0 8px 20px
+    rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+
+  padding: 12px;
+
+  margin-top: 10px;
+
+  margin-bottom: 15px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #7fdc5d;
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e67e22;
+  transform: scale(1.02);
+}
+
+.generate-btn {
+  font-size: 18px;
+}
+
+.dashboard {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(180px, 1fr)
+    );
+
+  gap: 15px;
+
+  margin-bottom: 20px;
+}
+
+.stat {
+  background: #138808;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 4px 10px
+    rgba(0, 0, 0, 0.2);
+}
+
+.stat h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subject-item {
+  background: #4665ba;
+
+  padding: 15px;
+
+  margin-top: 12px;
+
+  border-radius: 12px;
+
+  line-height: 1.6;
+}
+
+.schedule-item {
+  background: #75a2e0;
+
+  padding: 15px;
+
+  margin-top: 12px;
+
+  border-radius: 12px;
+
+  line-height: 1.8;
+}
+
+.delete-btn {
+  width: auto;
+
+  background: #dc2626;
+
+  padding: 8px 15px;
+
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background: #c24646;
+}
+
+.footer {
+  background: rgba(85, 138, 203, 0.92);
+
+  color: white;
+
+  text-align: center;
+
+  padding: 25px;
+
+  border-radius: 18px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #a2f270;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  font-size: 18px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .app {
+    padding: 15px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+}
